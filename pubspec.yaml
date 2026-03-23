@@ -1,0 +1,76 @@
+name: socialmedia_app
+description: "A new Flutter project."
+<<<<<<< HEAD
+# The following line prevents the package from being accidentally published to
+# pub.dev using `flutter pub publish`. This is preferred for private packages.
+publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+=======
+publish_to: 'none'
+>>>>>>> 42910258dedd46af3f05ff711dec5bad285bec19
+
+version: 1.0.0+1
+
+environment:
+<<<<<<< HEAD
+  sdk: ^3.10.8
+=======
+  sdk: ^3.10.4
+>>>>>>> 42910258dedd46af3f05ff711dec5bad285bec19
+
+dependencies:
+  flutter:
+    sdk: flutter
+<<<<<<< HEAD
+
+  # The following adds the Cupertino Icons font to your application.
+  cupertino_icons: ^1.0.8
+
+  # --- NEW PACKAGES FOR SOCIAL MEDIA APP ---
+
+  # Handles image caching so your feed scrolls smoothly without reloading images
+  cached_network_image: ^3.3.1
+
+  # For clean, professional, sans-serif typography
+  google_fonts: ^6.2.1
+
+  # Useful for formatting dates and timestamps on posts
+  intl: ^0.19.0
+
+=======
+  cupertino_icons: ^1.0.8
+  cached_video_player_plus: ^3.0.3
+>>>>>>> 42910258dedd46af3f05ff711dec5bad285bec19
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+<<<<<<< HEAD
+
+  flutter_lints: ^6.0.0
+
+flutter:
+
+  uses-material-design: true
+
+  # To add assets to your application, add an assets section, like this:
+  # assets:
+  #   - images/a_dot_burr.jpeg
+  #   - images/a_dot_ham.jpeg
+
+  # To add custom fonts to your application, add a fonts section here:
+  # fonts:
+  #   - family: Schyler
+  #     fonts:
+  #       - asset: fonts/Schyler-Regular.ttf
+  #       - asset: fonts/Schyler-Italic.ttf
+  #         style: italic
+=======
+  flutter_lints: ^6.0.0
+
+flutter:
+  uses-material-design: true
+
+  assets:
+    - assets/videos/
+    - assets/img/
+>>>>>>> 42910258dedd46af3f05ff711dec5bad285bec19
